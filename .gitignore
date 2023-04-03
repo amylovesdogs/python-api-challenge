@@ -12,3 +12,7 @@ venv.bak/
 
 # Adding config.py file
 api_keys.py
+
+#caches and checkpoints
+.ipynb_checkpoints/
+__pycache__/
