@@ -40,9 +40,9 @@ This jupyter notebook reads in the city data from the WeatherPy output file, cit
 * Creates a map with a point for each city. The point size reflects the humidity of the city.
 
 * Narrows down the city list to those cities with a:
-** Max temperature lower than 27 degrees but higher than 21.
-** Wind speed of less than 4.5 m/s
-** Zero cloudiness
+  + Max temperature lower than 27 degrees but higher than 21.
+  + Wind speed of less than 4.5 m/s
+  + Zero cloudiness
 
 * Creates a map of the narrowed down city list. The hover message for each point (city) contains longitude, latitude, city name, country name, humidity and the name of the nearest hotel with 10 kilometers to the latitude/longitude.
 
